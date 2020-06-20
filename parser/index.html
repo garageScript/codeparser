@@ -1,0 +1,29 @@
+<body>
+  <h3 class="description">Description...</h3>
+  <button class="next">Next</button>
+
+  <pre class="code-entry">
+  const colton = "james"
+  const blah = "hello"
+  let blah2 = "testing"
+  var blah3 = "woah"
+  const a = () => {
+    blah2 = blah3 + "hello" + 5
+  }
+
+  const addBlah = blah + blah2 + 5
+  const addRunFn = a() + blah2 + 5
+  </pre>
+
+<script src="/parser/dist/parse.js"></script>
+<style>
+.global-context {
+  position: fixed;
+  top: 200px;
+  right: 50px;
+  bottom: 100px;
+  left: 50%;
+  background-color: 'yellow';
+}
+</style>
+</body>
